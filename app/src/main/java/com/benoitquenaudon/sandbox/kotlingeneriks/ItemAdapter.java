@@ -28,8 +28,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemViewHolder> {
     }
   }
 
-  @SuppressWarnings("unchecked") @Override
-  public void onBindViewHolder(ItemViewHolder holder, int position) {
+  @Override public void onBindViewHolder(ItemViewHolder holder, int position) {
     holder.bind(items.get(position));
   }
 
